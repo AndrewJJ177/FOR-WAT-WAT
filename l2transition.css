@@ -1,0 +1,26 @@
+button{
+    width: 350px;
+    height:120px;
+
+    background-color: coral;
+
+    font-size:30px;
+    letter-spacing: 2px;
+   border: none;
+  color: white;
+    transition-property: all;
+  transition-duration: 1s;
+    font-family:"DejaVu Sans Mono";
+    text-decoration: none;
+    transition-delay: 1s;
+
+}
+button:hover{
+    background-color: indianred;
+    color: black;
+    width: 600px;
+
+    border-radius: 60px;
+    cursor:pointer;
+
+}

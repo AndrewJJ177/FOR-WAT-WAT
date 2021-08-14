@@ -1,0 +1,33 @@
+.container{
+    width: 960px;
+}
+.container .move{
+    width: 300px;
+    height: 100px;
+    background-color:coral;
+    color: white;
+    line-height:100px;
+    border-radius:12px;
+    text-align: center;
+    font-size:25px;
+    font-weight:lighter;
+    padding:10px 20px ;
+     margin:30px;
+    letter-spacing:3px;
+    text-transform: uppercase;
+
+
+}
+#scale:hover{
+    transform:scale(2);
+}
+#translate:hover{
+    transform:translate(-100px,0);
+}
+
+#rotate:hover{
+    transform:rotate(130deg);
+}
+#skew:hover{
+    transform:skew(2);
+}

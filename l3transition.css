@@ -1,0 +1,43 @@
+.container .move{
+    background-color: burlywood;
+    font-size:25px;
+    width: 300px;
+    color: white;
+    padding:10px 20px ;
+   height: 100px;
+  text-align: center;
+    padding:10px 20px ;
+    line-height:100px;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    border-radius:10px;
+    font-weight: lighter;
+    transition-property:transform;
+    transition-duration: 1s;
+
+}
+.container .move:hover{
+        transform: translate(1000px,0);
+}
+
+
+
+.container{
+
+    width: 1080px;
+}
+#ease{
+transition-timing-function:ease;
+}
+#ease-in{
+    transition-timing-function:ease-in;
+}
+#ease-out{
+    transition-timing-function:ease-out;
+}
+#ease-in-out{
+    transition-timing-function:ease-in-out;
+}
+#linear{
+    transition-timing-function:linear;
+}

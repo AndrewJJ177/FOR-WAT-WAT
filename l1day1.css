@@ -1,0 +1,17 @@
+button{
+    width: 350px;
+    height: 120px;
+    background-color: indianred;
+     color:whitesmoke;
+    font-size:30px;
+    border:none;
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+button:hover{
+    background-color: aquamarine;
+    color: black;
+
+}
+
+
